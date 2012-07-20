@@ -14,3 +14,16 @@ Get https://github.com/tpope/vim-pathogen/ and install pythonDoc:
         pythonDoc
 
 Enjoy!
+
+
+Configuration
+=============
+
+Switch to horizontal split:
+
+    let g:python_doc_split = "split"
+
+
+Alternate path to pydoc:
+
+    let g:python_doc_command = "/path/to/pydoc"
